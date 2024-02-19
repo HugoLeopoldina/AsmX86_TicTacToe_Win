@@ -766,7 +766,7 @@ section .text
             ; Realocar o bloco do heap apontado por currentPlayer->choice (escolha atual)
             ; pelo tamanho 8 * currentPlayer->choicesCount, assim fazendo com
             ; que este bloco seja liberado e um novo bloco no heap seja criado
-            ; com os valores copiados e com o tamanho extendido para uma nova escolha (2 inteiros)
+            ; com os valores copiados e com o tamanho estendido para uma nova escolha (2 inteiros)
             ; logo, uma lista de lista de dois inteiros é criado
             ; e o ponteiro será atribuido para currentPlayer->choices
 
