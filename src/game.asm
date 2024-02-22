@@ -198,7 +198,7 @@ section .text
             push dword [PRINT_STRING]
             push eax
             call print
-            add esp, 2
+            add esp, 3
 
             colLoop:
                 mov eax, [esp + 4]
