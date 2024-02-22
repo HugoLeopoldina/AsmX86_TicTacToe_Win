@@ -189,9 +189,10 @@ section .text
             call print
 
             ; Imprimindo 2 espaços após os numeros das linhas
-            sub esp, 2
+            sub esp, 3
             mov byte [esp], 0x20
             mov byte [esp + 1], 0x20
+            mov byte [esp + 2], 0
             mov eax, esp
 
             push dword [PRINT_STRING]
